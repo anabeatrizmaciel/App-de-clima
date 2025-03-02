@@ -110,7 +110,7 @@ function App() {
                             </ConditionItem>
                     
                             <ConditionItem>
-                                <img src="https://cdn-icons-png.flaticon.com/512/2462/2462719.png" alt="Qualidade do Ar" />
+                                <img src="https://cdn-icons-png.flaticon.com/512/4005/4005901.png" alt="Qualidade do Ar" />
                                 <p><strong>Qualidade do Ar:</strong> {['Boa', 'Moderada', 'Ruim', 'Muito Ruim', 'Perigosa'][airConditions.airQuality - 1]}</p>
                             </ConditionItem>
                         </ConditionsGrid>

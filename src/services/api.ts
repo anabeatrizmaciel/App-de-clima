@@ -29,7 +29,6 @@ export async function getWeather(city: string) {
             },
         });
 
-        // 3. Buscar condições do ar
         const airResponse = await api.get('/air_pollution', {
             params: {
                 lat: coord.lat,
